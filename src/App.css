@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.title{
+  margin: 0 auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title-wrap{
+  width:100%;
+  padding-bottom: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titleSeparator {
+  width: 70px;
+  height: 4px;
+  margin: 20px auto;
+  background: #063d37;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.date{
+  font-size: x-large;
+  color: rgb(88, 90, 92);
+  padding: 10px;
+}
+.body{
+  padding-bottom: 100px;
+  background-image: radial-gradient(circle, #65c0c4, #6acec7, #75dbc6, #87e8c3, #9df4be);
+}
+.trash{
+  color: rgb(205, 50, 50);
+  padding: 10px;
+}
+.timing{
+  color: rgb(5, 69, 87);
+  padding:0px 25px;
+  background-color: #30050517;
+  font-size: 20px;
+}
+.timeinput{
+  padding:20px 0px 0px 0px;
+  font-weight: bold;
+}
+.sub{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin-top:30px;
+  margin-bottom: 40px;
 }
-
-.App-link {
-  color: #61dafb;
+.inpt{
+  font-size: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inppt{
+  padding:7px 0px;
+  
 }
